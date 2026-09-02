@@ -361,7 +361,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         try {
             // Send data to FastAPI backend
-            const response = await fetch('https://meet-mev2.onrender.com/send-message', {
+            const response = await fetch('https://encouraging-odette-meet-me-5ef0ef37.koyeb.app/send-message', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
